@@ -1,0 +1,38 @@
+img {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  height: 200px;
+  
+}
+body{
+	background-color: #000000;
+}
+div{
+	text-align: center;
+	vertical-align: middle;
+	font-size:72px;
+}
+#goal {
+  z-index: 0;
+
+}
+#shadow {	
+  z-index: 3;
+}
+
+#render{
+	width: 100%; 
+	display: table;
+}
+.row{
+	display: table-row; 
+	height:200px;
+}
+.right{
+	display: table-cell;
+}
+.left{
+	width: 50%; 
+	display: table-cell;
+}
